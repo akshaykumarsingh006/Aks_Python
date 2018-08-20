@@ -1,0 +1,6 @@
+M = int(input('enter the no.of elements of m'))
+m = set(map(int, input('enter the integers: ').split()))
+N = int(input('enter the no.of elements of n'))
+n = set(map(int, input('enter the integers: ').split()))
+print((m.difference(n)))
+print((n.difference(m)))
